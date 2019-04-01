@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="asd.css">
     <title>lion</title>
 </head>
 
@@ -12,11 +13,15 @@
 
     <h1>멋쟁이 사자처럼</h1>
     <h6>조그만 제목</h6>
-    <p>안녕하세요</p>
+    <p id="hi" class="bi">안녕하세요</p>
+    <p>감사합니다</p>
     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
     <hr>
-    <form action="보낼 주소">
-        id:<input type="text">
+    <form class="ho" action="보낼 주소">
+        <div class="center">
+            id:<input type="text" class="search">
+        </div>
+
         <br>
         password:<input type="password">
         <br>
@@ -24,21 +29,56 @@
         <br>
         <input type="submit">
     </form>
-    <ul>
+    <ul class="ho">
         <li>안녕하세요</li>
         <li>멋사입니다</li>
         <li>배가고파요</li>
     </ul>
     <ol>
-            <li>안녕하세요</li>
-            <li>멋사입니다</li>
-            <li>배가고파요</li>
-            
+        <li>안녕하세요</li>
+        <li>멋사입니다</li>
+        <li>배가고파요</li>
+
     </ol>
     <div style="background-color: brown">여기는 div야!</div>
     <div style="background-color: blue">여기는 div야!</div>
-    <span style="background-color: aqua">여기는 span</span> 
-    <span>여기는 아무것도 아닌데</span> 
+    <span style="background-color: aqua">여기는 span</span>
+    <span style="background-color: blue">여기는 아무것도 아닌데</span>
 </body>
 
 </html>
+
+<style>
+    h1 {
+        color: brown;
+        text-align: center;
+    }
+
+    #hi {
+        color: burlywood;
+    }
+
+    p {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .ho {
+        font-size: 100px;
+    }
+
+    .search {
+        width: 30%;
+        height: 35px;
+        font-size: 30px;
+        text-align: center;
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+    img{
+        float: center;
+    }
+    .center {
+        text-align: center;
+    }
+</style>
